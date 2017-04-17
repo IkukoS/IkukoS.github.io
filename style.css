@@ -1,3 +1,66 @@
 body{
-	background-color: green;
+	background-color:#b3fff0 ;
+	margin-left: 50px;
+	width: 90%;
 }
+
+section{
+	border:solid 3px #1aa3ff;
+	padding-left: 10px;
+	background-color: #e6fff9;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-image: url(whiteback.png);
+}
+section li{
+	font-size: large;
+	font-weight: bold;
+}
+
+footer{
+	font-family: sans-serif;
+}
+
+.tips{
+	text-align: center;
+}
+
+a:visited { 
+	color: blue;
+}
+
+a:visited { 
+	color: #408000; 
+}
+
+label{
+	margin: 20px;
+}
+
+input{
+	margin: 5px;
+}
+
+#submit {
+	margin-left: 100px;
+	margin-top: 15px;
+}
+
+input:hover{ 
+	color: red; 
+}
+
+
+@media screen and (max-width: 500px) {
+  img {
+    width: 80%;
+  }
+  h1{
+	font-size: 1.5em;
+}
+h2,li{
+	font-size: 1.2em;
+}
+
+}
+
